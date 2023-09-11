@@ -12,8 +12,11 @@ Language Support for Java(TM) by Red Hat v1.13.0
 Se instalará el java:
 
 java 17.0.5 2022-10-18 LTS
+
 Java(TM) SE Runtime Environment (build 17.0.5+9-LTS-191)
+
 Java HotSpot(TM) 64-Bit Server VM (build 17.0.5+9-LTS-191, mixed mode, sharing)
+
 
 # GESTION-DE-VENTAS-DE-LA-EMPRESA-MEITOR
 desarrollo de una aplicación para la gestión de ventas con el  propósito de poder modernizar, facilitar y mejorar a la empresa Meitor para la gestión  en sus procesos de ventas, compras, producción, área de logística y finanzas
