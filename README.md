@@ -4,8 +4,11 @@ Debugger for Java v0.54.0
 Language Support for Java(TM) by Red Hat v1.13.0
 
 Se instalará el java:
+
 java 17.0.5 2022-10-18 LTS
+
 Java(TM) SE Runtime Environment (build 17.0.5+9-LTS-191)
+
 Java HotSpot(TM) 64-Bit Server VM (build 17.0.5+9-LTS-191, mixed mode, sharing)
 
 
