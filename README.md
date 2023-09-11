@@ -1,4 +1,4 @@
-Cada miembro del equipo debe cumplir tareas donde se demuestre la implementación y el dominio de todos los objetivos de la asigatura. No habrán clases implementadas por más de un miembro del equipo. Para la realización del diagrama UML se utilizará la extension de Vscode: PlantUML v2.17.5, el lenguaje de desarrollo será java 17.0.5 y el IDE de desarrollo Vscode v 1.81.1 con las extensiones:
+Cada miembro del equipo debe cumplir tareas donde se demuestre la implementación y el dominio de todos los objetivos de la asigatura. No habrán clases implementadas por más de un miembro del equipo, las clases relacionadas mediante herencia serán implementadas por el mismo programador. Para la realización del diagrama UML se utilizará la extension de Vscode: PlantUML v2.17.5, el lenguaje de desarrollo será java 17.0.5 y el IDE de desarrollo Vscode v 1.81.1 con las extensiones:
 
 Project Manager for Java v0.23.1
 
