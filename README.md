@@ -1,4 +1,4 @@
-Cada miembro del equipo debe cumplir tareas donde se demuestre la implementación y el dominio de todos los objetivos de la asigatura. No habrán clases implementadas por más de un miembro del equipo.
+Cada miembro del equipo debe cumplir tareas donde se demuestre la implementación y el dominio de todos los objetivos de la asigatura. No habrán clases implementadas por más de un miembro del equipo. Para la realización del diagrama UML, se utilizará la extension de vscode Plantuml.
 
 # GESTION-DE-VENTAS-DE-LA-EMPRESA-MEITOR
 desarrollo de una aplicación para la gestión de ventas con el  propósito de poder modernizar, facilitar y mejorar a la empresa Meitor para la gestión  en sus procesos de ventas, compras, producción, área de logística y finanzas
