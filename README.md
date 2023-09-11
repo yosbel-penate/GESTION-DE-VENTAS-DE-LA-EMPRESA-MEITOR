@@ -1,9 +1,13 @@
-Cada miembro del equipo debe cumplir tareas donde se demuestre la implementación y el dominio de todos los objetivos de la asigatura. No habrán clases implementadas por más de un miembro del equipo. Para la realización del diagrama UML se utilizará la extension de vscode PlantUML v2.17.5, el lenguaje de desarrollo será java y el IDE de desarrollo vscode con las extensiones:
+Cada miembro del equipo debe cumplir tareas donde se demuestre la implementación y el dominio de todos los objetivos de la asigatura. No habrán clases implementadas por más de un miembro del equipo. Para la realización del diagrama UML se utilizará la extension de vscode PlantUML v2.17.5, el lenguaje de desarrollo será java 17.0.5 y el IDE de desarrollo vscode con las extensiones:
+
 Project Manager for Java v0.23.1
+
 Debugger for Java v0.54.0
+
 Language Support for Java(TM) by Red Hat v1.13.0
 
-Se instalará el java:
+
+#Se instalará el java:
 
 java 17.0.5 2022-10-18 LTS
 
