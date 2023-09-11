@@ -1,5 +1,7 @@
 Cada miembro del equipo debe completar tareas que demuestren la implementación y el dominio de los objetivos de la asignatura. No se permiten clases implementadas por más de un miembro del equipo, y las clases relacionadas mediante herencia deben ser implementadas por el mismo programador. No se permiten exposiciones compartidas de dichas clases. El profesor evaluará la complejidad del proyecto realizado por el equipo y decidirá si alcanza el nivel suficiente para ser aceptado. El profesor revisará el diagrama UML del proyecto y la contribución de cada estudiante. El proyecto solo será aceptado si todos los diagramas UML de los miembros son aprobados por el profesor, los estudiantes deben tener sus diagramas UML listos antes de codificar y lo más rápido posible.
 
+Los estudiantes deberán entregar de manera individual una documentación que explique de manera detallada la implementación de su trabajo, incluyendo un diagrama de clases que muestre su parte del proyecto, así como una explicación de cada método y variable de cada clase, junto con una explicación de cada relación utilizada. En dicha documentacion se debe ver reflejado el cumplimiento de todos los objetivos de la asignatura(estos se encuentran al principio de cada conferencia) por parte del estudiante. 
+
 Para la realización del diagrama UML se utilizará la extension de Vscode: PlantUML v2.17.5, el lenguaje de desarrollo será java 17.0.5 y el IDE de desarrollo Vscode v 1.81.1 con las extensiones:
 
 Project Manager for Java v0.23.1
