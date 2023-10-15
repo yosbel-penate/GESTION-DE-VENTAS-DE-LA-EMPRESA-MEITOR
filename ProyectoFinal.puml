@@ -1,0 +1,123 @@
+@startuml
+
+class Prenda {
+    - id: int
+    - nombre: String
+    - descripcion: String
+    - estado: bool
+    + Prenda(id: int, nombre: String, descripcion: String)
+    + getId(): int
+    + setId(id: int): void
+    + getNombre(): String
+    + setNombre(nombre: String): void
+    + getDescripcion(): String
+    + setDescripcion(descripcion: String): void
+    + isEstado(): bool
+    + setEstado(estado: bool): void
+    + registrar(): void
+    + modificar(): void
+    + desactivar(): void
+    + buscar(): Prenda
+}
+
+class Articulo {
+    - id: int
+    - nombre: String
+    - descripcion: String
+    - estado: bool
+    + Articulo(id: int, nombre: String, descripcion: String)
+    + getId(): int
+    + setId(id: int): void
+    + getNombre(): String
+    + setNombre(nombre: String): void
+    + getDescripcion(): String
+    + setDescripcion(descripcion: String): void
+    + isEstado(): bool
+    + setEstado(estado: bool): void
+    + registrar(): void
+    + modificar(): void
+    + desactivar(): void
+    + buscar(): Articulo
+}
+
+class Proveedor {
+    - id: int
+    - nombre: String
+    - contacto: String
+    - estado: bool
+    + Proveedor(id: int, nombre: String, contacto: String)
+    + getId(): int
+    + setId(id: int): void
+    + getNombre(): String
+    + setNombre(nombre: String): void
+    + getContacto(): String
+    + setContacto(contacto: String): void
+    + isEstado(): bool
+    + setEstado(estado: bool): void
+    + registrar(): void
+    + modificar(): void
+    + eliminar(): void
+    + buscar(): Proveedor
+}
+
+class Usuario {
+    - id: int
+    - nombre: String
+    - contacto: String
+    - estado: bool
+    + Usuario(id: int, nombre: String, contacto: String)
+    + getId(): int
+    + setId(id: int): void
+    + getNombre(): String
+    + setNombre(nombre: String): void
+    + getContacto(): String
+    + setContacto(contacto: String): void
+    + isEstado(): bool
+    + setEstado(estado: bool): void
+    + registrar(): void
+    + modificar(): void
+    + eliminar(): void
+    + buscar(): Usuario
+}
+
+class Permiso {
+    - id: int
+    - nombre: String
+    + Permiso(id: int, nombre: String)
+    + getId(): int
+    + setId(id: int): void
+    + getNombre(): String
+    + setNombre(nombre: String): void
+    + asignar(): void
+}
+
+class Cliente {
+    - id: int
+    - nombre: String
+    - contacto: String
+    - estado: bool
+    + Cliente(id: int, nombre: String, contacto: String)
+    + getId(): int
+    + setId(id: int): void
+    + getNombre(): String
+    + setNombre(nombre: String): void
+    + getContacto(): String
+    + setContacto(contacto: String): void
+    + isEstado(): bool
+    + setEstado(estado: bool): void
+    + registrar(): void
+    + modificar(): void
+    + eliminar(): void
+    + buscar(): Cliente
+}
+
+Usuario --> Permiso: Tiene >
+Proveedor --> Articulo: Provee >
+Cliente --> Articulo: Compra >
+
+Prenda "0..*" -- "1" Usuario: Pertenecen a >
+Articulo "0..*" -- "1" Usuario: Pertenecen a >
+Cliente "0..*" -- "1" Usuario: Asignados a >
+Proveedor "0..*" -- "1" Usuario: Asignados a >
+
+@enduml
